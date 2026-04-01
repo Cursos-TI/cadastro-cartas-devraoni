@@ -30,7 +30,7 @@ int main() {
   float pib2 = 300.50;
   int pontosturisticos2 = 30;
   
-  // Área para entrada de dados
+  // Área para saída de dados
 
   // Exibição da Carta 1
  

@@ -1,4 +1,4 @@
-//Carta 1 pronta
+//Cadastro das Cartas A01 e B02
 
 #include <stdio.h>
 
@@ -28,22 +28,25 @@ int main() {
   int populacao2 = 6748000;
   float area2 = 1200.25;
   float pib2 = 300.50;
-  int pontosturisticos = 30;
+  int pontosturisticos2 = 30;
   
   // Área para entrada de dados
 
   // Exibição da Carta 1
  
+  printf("+------------ Carta 1 ------------+\n"); // +--- melhora a apresentação dos cartas
   printf("Estado: %c\n", estado1);
   printf("Código: %s\n", codigo1);
   printf("Nome da Cidade: %s\n", cidade1);
   printf("População: %i\n", populacao1);
   printf("Área: %.2f km²\n", area1); //o C entende o km², logo a solução foi escreve-lo de forma simples
   printf("PIB: %.2f bilhões de reais\n", pib1);
-  printf("Números de Pontos Turísticos: %d\n", pontosturisticos1);
+  printf("Números de Pontos Turísticos: %d\n", pontosturisticos1); // repetir o \n para melhorar a formatação
+  printf("+---------------------------------+\n\n");
 
   // Exibição da Carta 2
  
+  printf("+------------ Carta 2 ------------+\n");
   printf("Estado: %c\n", estado2);
   printf("Código: %s\n", codigo2);
   printf("Nome da Cidade: %s\n", cidade2);
@@ -51,6 +54,7 @@ int main() {
   printf("Área: %.2f km²\n", area2); //o C entende o km², logo a solução foi escreve-lo de forma simples
   printf("PIB: %.2f bilhões de reais\n", pib2);
   printf("Números de Pontos Turísticos: %d\n", pontosturisticos2);
+  printf("+---------------------------------+\n");
 
 return 0;
 } 
